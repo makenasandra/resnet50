@@ -32,7 +32,7 @@ Image(filename="bay.jpg")
 
 
 
-![jpeg](output_5_0.jpeg)
+![jpg](images/todd-cravens-lwACYK8ScmA-unsplash.jpg)
 
 
 
@@ -79,3 +79,5 @@ print("This is an image of:")
 for imagenet_id, name, likelihood in predicted_classes[0]:
     print(" - {}: {:2f} likelihood".format(name, likelihood))
 ```
+
+#We get 94% likelihood that the image is of a grey whale
