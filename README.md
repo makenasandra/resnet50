@@ -80,4 +80,4 @@ for imagenet_id, name, likelihood in predicted_classes[0]:
     print(" - {}: {:2f} likelihood".format(name, likelihood))
 ```
 
-#We get 94% likelihood that the image is of a grey whale
+We get 94% likelihood that the image is of a grey whale
