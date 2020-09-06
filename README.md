@@ -26,7 +26,7 @@ The original size of the image is 1365 pixels square which is too large for our 
 ```python
 #To Display image we are processing
 from IPython.display import Image
-Image(filename="bay.jpg")
+Image(filename="images/todd-cravens-lwACYK8ScmA-unsplash.jpg")
 ```
 
 
@@ -39,7 +39,7 @@ Image(filename="bay.jpg")
 
 ```python
 # Load the image file, resizing it to 224x224 pixels (required by this model)
-img = image.load_img("bay.jpg", target_size=(224, 224))
+img = image.load_img("images/todd-cravens-lwACYK8ScmA-unsplash.jpg", target_size=(224, 224))
 ```
 
 ### Converting Image
